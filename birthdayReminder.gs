@@ -1,9 +1,6 @@
   function sendEmails() {
           var birthdate = [{name: 'rahul',  date: new Date(1995,4,5)},
-                           {name: 'deepak', date: new Date(1995,22,2)},
-                           {name: 'priya',  date: new Date(1995,17,5)},
-                           {name: 'vivek',  date: new Date(1995,12,1)},
-                           {name: 'test',   date: new Date(1995,4,8)}];
+                           {name: 'test',   date: new Date(1995,4,8)}];//sample data
 
           for (var i = 0; i < birthdate.length; i++) {
             var today = new Date();
